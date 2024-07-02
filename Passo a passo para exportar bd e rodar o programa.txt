@@ -1,0 +1,62 @@
+Passo a passo
+
+Abrir PGADMIN4 (no caso o, Postegre)
+Clickar em 'Server' no canto esquerdo
+Colocar a senha padrao '123456'
+Expandir ele na setinha pra baixo 'v'
+Clickar em Databases
+Colocar a senha padrao ou a que voce cocolou na hora de instalar o postgre
+
+Depois crie uma nova database
+Clicka com o direito em databases
+Coloca o nome como "smartgym"
+E da Save
+Depois ela ira aparecer no canto esquerdo
+Pronto criamos a database onde iremos usar
+
+Depois na abas em cima
+Clicka em 'Tools' 
+Depois 'Query Tool' Ou 'ERD Tool caso queira ver o diagrama logico, porém para rodar o programa em python apenas o QUERY para colocar as tabelas dentro de nosso baco)
+Clicka no icone da pasta (para abrir o arquivo .SQL) no caso agora 'smartgymb.sql'
+Irá abrir os comandos em SQL 
+So executar com o F5
+Clicka com o direito em cima do nosso banco 'smartgym' depois em Refresh para as tabelas aparecer
+Caminho: 'smartgym>Schemas>public>Tables
+
+Baixar o VSCODE, para abrir o projeto em python e criar um ambiente virtual para rodar ele. Pois usei o "PSYCOPG2" uma biblioteca para conectar com o banco de dados
+Depois de baixar o vscode
+ver como instalar as bibliotecas do python no vscode
+
+Ver o video de como criar um ambiente virtual: https://www.youtube.com/watch?v=m1TYpvIYm74&t=324s
+
+Recomendo criar uma pasta (smartgym)
+e 
+Criar ambiente virtual no terminal do vscode: python -m venv env
+depois de criar o ambientevirtual
+ABRIR o TERMINAL no ambiente virtual (env ou nome que voce deu)
+e instalar o PSYCOPG2
+escrever no terminal:
+pip install psycopg2
+
+e depois:
+pip install psycopg2-binary
+
+
+e colocar os arquivos (sistema_smartgym.py e _init_.py) fora da maquina virtual mas na pasta que ela esta instalada.
+
+A estrutura iria ficar : 
+(Nome Pasta)\smartgym\env = maquinavirtual
+(Nome Pasta)\smartgym\sistema_smartgym.py 
+(Nome Pasta)\smartgym\_init_.py 
+
+Depois so rodar o arquivo sistema_smartgym.py pelo ambientevirtual criado.
+* o arquivo sistema_smartgym.py é o que roda( Layout) o _init_ e maioria das funcoes que o primeiro puxa. Mas os dois tem que estar no mesmo local.
+
+
+
+*obs
+populacao.sql = arquivo para popular as tabelas depois
+tem o arquivo e exportar e importa informacoes(da matricula e mensalidades) de acordo com as informacoes da matricula do Aluno x Plano
+caso achar necessario, vou deixar os dois arquivos (.csv) de exemplo que eu fiz tb 
+
+BORA!

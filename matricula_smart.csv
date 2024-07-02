@@ -1,0 +1,6 @@
+cod_matricula;dt_matricula;status_matricula;cod_plano;cod_aluno;status_plano;fim_plano
+1;2022-11-15;t;1;1;t;2022-12-15
+2;2022-11-15;t;2;2;t;2023-01-14
+3;2022-11-15;t;3;3;t;2023-02-13
+4;2022-11-15;t;4;4;t;2023-05-14
+5;2022-11-15;t;5;5;t;2023-11-10

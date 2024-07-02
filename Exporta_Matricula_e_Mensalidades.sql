@@ -1,0 +1,3 @@
+--Exporta Mensalidade e Matriculas do BD de acordo com a criacao realizada no sistema , o campo (TO) é o caminho o arquivo csv ira ficar salvo
+copy (SELECT cod_mensalidade, valor_mensalidade, dt_pago, dt_vence, status_mensalidade, cod_aluno from mensalidade) TO 'c:/temp/mensalidade_smart.csv' WITH DELIMITER ';' CSV HEADER ENCODING 'UTF8';
+copy (SELECT cod_matricula, dt_matricula, status_matricula, cod_plano, cod_aluno, status_plano, fim_plano from matricula) TO 'c:/temp/matricula_smart.csv' WITH DELIMITER ';' CSV HEADER ENCODING 'UTF8';
