@@ -5,7 +5,6 @@ Bem-vindo ao **SmartGYM**! Este é o seu novo sistema de academia inteligente, d
 ## 📜 Sumário
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
-- [Licença](#licença)
 
 ## 🌟 Visão Geral
 O **SmartGYM** foi desenvolvido para ajudar academias a gerenciarem seus membros, planos de treino, horários de aulas e muito mais, tudo em uma interface intuitiva e fácil de usar.
